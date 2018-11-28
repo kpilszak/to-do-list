@@ -19,3 +19,9 @@ h1 {
     background-color: rgb(255, 248, 211);
     color: rgb(64, 62, 53);
 }
+
+.doneTask {
+    color: rgba(64, 62, 53, 0.5);
+    text-decoration: line-through;
+    font-size: 1rem;
+}
