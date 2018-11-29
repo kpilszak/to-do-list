@@ -23,5 +23,4 @@ h1 {
 .doneTask {
     color: rgba(64, 62, 53, 0.5);
     text-decoration: line-through;
-    font-size: 1rem;
 }

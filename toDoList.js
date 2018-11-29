@@ -1,19 +1,18 @@
-$("li").on({
-    click: function(){
-        $(this).toggleClass("doneTask");
-    },
-//    mouseover: function(){
-//        if($(this).css("color") === "rgb(64, 62, 53)"){
-//            $(this).css({
-//                "color": "rgb(239, 57, 78)",
-//                "font-weight": "bold"
-//           });
-//        }
-//        else {
-//            $(this).css({
-//                "color": "rgb(64, 62, 53)",
-//                "font-weight": "normal"
-//            });
-//        }
-//    },
+$("ul").on("click", "li", function(){
+    $(this).toggleClass("doneTask");
+});
+
+$("ul").on("click", "span", function(e){
+    $(this).parent().fadeOut(200, function(){
+        $(this).remove();
+    });
+    e.stopPropagation();
+});
+
+$("input[type='text']").keypress(function(e){
+    if(e.which === 13){
+        var taskToDo = $(this).val();
+        $(this).val("");
+        $("ul").append("<li><span>X</span>" + taskToDo + "</li>");
+    }
 });
