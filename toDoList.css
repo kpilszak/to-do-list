@@ -49,8 +49,8 @@ ul {
 
 li {
     background-color: rgb(255, 236, 134);
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
 }
 
 li:nth-child(2n) {
@@ -58,20 +58,25 @@ li:nth-child(2n) {
 }
 
 li:hover span {
-    width: 50px;
+    width: 60px;
     opacity: 1.0;
 }
 
 span {
     margin-right: 3%;;
     background-color: rgb(229, 223, 190);
-    height: 50px;
+    height: 60px;
+    line-height: 60px;
     width: 0;
     color: rgb(255, 248, 211);
     display: inline-block;
+    vertical-align: top;
     text-align: center;
     transition: 0.1s linear;
     opacity: 0;
+}
+.fa {
+    line-height: inherit;
 }
 
 .doneTask {
