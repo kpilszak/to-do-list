@@ -1,4 +1,4 @@
-<h1 align="right">Todo List</h1><br>
+<h1 align="right">To Do List</h1><br>
 
 ## Table of contents
 * [General info](#general-info)
@@ -6,7 +6,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is a browser todo list.  
+This project is a browser to do list.  
 The main purpose of this is to write down tasks, that have to be done.  
 To add task, simply type it in a first line.
 Cross out tasks, that you have done by clicking on them, click again to undo this.  
