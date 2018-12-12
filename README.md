@@ -16,8 +16,7 @@ You can remove a task completely by clicking on a trash icon that appears while 
 Project is created with:
 * HTML5
 * CSS3
-* JavaScript ES6
-* jQuery 3.3.1
+* JavaScript (jQuery 3.3.1)
 
 ## Supports
 Recommended minimal browser versions:
